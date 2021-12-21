@@ -8,7 +8,7 @@ export default function Search(props) {
         value={props.value}
         placeholder="Search"
         autoComplete="off"
-        onChange={(event) => props.setSearchValue(event.target.value)}
+        onChange={(e) => props.setSearchValue(e.target.value)}
       />
       <br />
     </div>

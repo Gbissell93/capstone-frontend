@@ -1,10 +1,10 @@
 import "./App.css";
-import Dashboard from "./components/Dashboard/Dashboard";
+import CoinList from "./components/CoinList/CoinList";
 
 function App() {
   return (
     <div className="App">
-      <Dashboard />
+      <CoinList />
     </div>
   );
 }

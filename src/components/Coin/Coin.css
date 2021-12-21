@@ -1,0 +1,17 @@
+.coin-item {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.item-row {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  height: 80px;
+  width: 900px;
+}
+
+.coin {
+}
