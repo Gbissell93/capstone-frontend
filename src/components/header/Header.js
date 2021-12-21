@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function header({ user }) {
   return (
-    <div>
+    <div className="header-container">
       <div className="logo-container">Logo</div>
       <div className="nav-menu-container">
         <ul className="nav-menu">
