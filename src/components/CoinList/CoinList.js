@@ -37,6 +37,7 @@ function Dashboard() {
   return (
     <>
       <Search searchValue={searchValue} setSearchValue={setSearchValue} />
+      {error !== "" ? <span id="error">{error}</span> : null}
       <div className="list-container">
         {searchResults.map((item, index) => {
           return (
